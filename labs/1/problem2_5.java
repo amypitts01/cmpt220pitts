@@ -12,7 +12,7 @@ public class Problem2_5 {
     System.out.println( "Enter gratuity rate: " );
     double gratuity = input.nextDouble();
     
-    //calculating the total
+    //calculating total
     double total = ( subtotal * (gratuity/100) ) + subtotal;
     
     //reporting total

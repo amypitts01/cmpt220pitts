@@ -16,7 +16,7 @@ public class Problem2_6 {
    integer = integer / 10;
    sum = sum + integer % 10;
    
-   //printing results
+   //printing the results
    System.out.println( "The integer: " + integer + " sum of all the digits is: " + sum );
  }
 }
