@@ -41,6 +41,15 @@ public class Problem3_15 {
     else if (firstUser == thirdLottery && secondUser == firstLottery && thirdUser == secondLottery ) {
       result = 2;
     }
+    else if (firstUser == firstLottery && secondUser == thirdLottery && thirdUser == secondLottery ) {
+      result = 2;
+    }
+    else if (firstUser == thirdLottery && secondUser == secondLottery && thirdUser == firstLottery ) {
+      result = 2;
+    }
+    else if (firstUser == secondLottery && secondUser == firstLottery && thirdUser == thirdLottery ) {
+      result = 2;
+    }
     else if (firstUser == firstLottery || firstUser == secondLottery || firstUser == thirdLottery || 
              secondUser == firstLottery || secondUser == secondLottery || secondUser == thirdLottery ||
              thirdUser == firstLottery || thirdUser == secondLottery || thirdUser == thirdLottery ) {
