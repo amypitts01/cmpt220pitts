@@ -1,0 +1,29 @@
+9 pts
+
+Amy,
+
+About your programs...
+
+Functionality
+
+- Could not test functionality because programs cannot be compiled. Root cause
+  seems to be the fact that the name of the file does not match the name of
+  your class.  -1pt
+
+Please make sure you read the problems well; follow instructions.
+
+
+Style Check
+
+- All abide to the style guidelines.
+
+
+About your essay:
+
+- Good writing and analysis.
+
+
+
+Peace,
+
+- Dr. Rivas
