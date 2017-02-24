@@ -35,8 +35,17 @@ public class Problem6_3 {
     }
   }
 
-
-  //Return the reversal of an integer, i.e., reverse(456) returns 654
+/**
+ * sumDigits
+ *
+ * This function reverse an integer
+ * from the users input. 
+ * 
+ * Parameters:
+ *   number: the number which is then reversed
+ * 
+ * Return value: the revered value
+ */
   public static int reverse(int number) {  
     int reverseNum =0;
     while (number != 0) {
@@ -51,7 +60,19 @@ public class Problem6_3 {
     }
     return reverseNum;
   }
-  //Return true if number is a palindrome
+  
+/**
+ * sumDigits
+ *
+ * This function sees if the users number
+ * is a Palindrome. 
+ * 
+ * Parameters:
+ *   n: the number from the users inputs
+ * 
+ * Return value: if the value is a palindrome.
+ */
+ 
   public static boolean isPalindrome(int number) {
     if (number == reverse(number))
       return true; 

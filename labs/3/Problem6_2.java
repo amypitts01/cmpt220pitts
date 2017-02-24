@@ -6,7 +6,8 @@
  * due date: February 23, 2017
  * version: 1.0
  * 
- * This file contains the code that create a new methed that calculates the sum of an integer.
+ * This file contains the code that create a new methed 
+ * that calculates the sum of an integer.
  */
 
 import java.util.Scanner;
@@ -26,7 +27,17 @@ public class Problem6_2 {
     System.out.println("The sum of the integer " + n + " is " + Math.abs(sum));
   }
   
-  //The new method. 
+/**
+ * sumDigits
+ *
+ * This function computes the sum of digits 
+ * from the users input. 
+ * 
+ * Parameters:
+ *   n: the number which is then split up and added
+ * 
+ * Return value: the sum of the numbers.
+ */
   public static int sumDigits(long n) {
 
     int number = (int) n;
