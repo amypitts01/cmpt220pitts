@@ -1,9 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem4_5.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that displays the area of a polygon.
+ */
+   
 import java.util.Scanner;  
-/* A regular polygon is an n-sided polygon in which all sides are of the 
-same length and all angles have the same degree (i.e., the polygon is both equilateral and equiangular).
-The formula for computing the area of a regular polygon is listed on page 151 */
 
 public class Problem4_5 {
   public static void main(String[] arg) {

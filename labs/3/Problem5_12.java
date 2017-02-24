@@ -1,6 +1,13 @@
-//Amy Pitts
-/*  5.12 (Find the smallest n such that n^2>12000) use a while loop to find the 
-smallest integer n such that n^2 is less then 12000*/
+/**
+ * file: Problem5_12.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains Find the smallest n such that n^2>12000 code that uses a while loop.
+ */
 
 public class Problem5_12 {
   public static void main(String[] arg) {

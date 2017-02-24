@@ -1,15 +1,13 @@
-//Amy Pitts 
-//(Palindrome integer) 
-/* Write the methods with the following headers
-
-//Return the reversal of an integer, i.e., reverse(456) returns 654
-public static int reverse(int number)
-
-//Return true if number is a palindrome
-public static boolean isPalindrome(int number)
-
-Use the reverse method to implement isPalindrome. A number is a palindrome if its reverssal is the same as itself. 
-Write a test program that prompts the user to enter an integer and reports whether the integer is a palindrome.  */
+/**
+ * file: Problem6_3.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains the code named Palindrome integer that create a new methed that sees if a number is a Palindrome.
+ */
 
 import java.util.Scanner;
 

@@ -1,6 +1,14 @@
 //Amy Pitts 
-// 2-20-17
-//Different Distances Kattis Lab 
+/**
+ * file: Driver_lab3.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains the code for the Different Distance lab in Kattis.
+ */
 
 import java.util.Scanner;
 
@@ -38,7 +46,7 @@ public class Driver_lab3 {
       double distance = Math.pow(Math.pow(Math.abs( xOne - xTwo ),p) + Math.pow(Math.abs( yOne - yTwo ),p),(1/p));
     
       //Printing the calculated distance with the correct number of decimal places
-      System.out.printf("%.10f\n", distance);
+      System.out.printf("%.10f\n", distance); 
     }
   }
 }

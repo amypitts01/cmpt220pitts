@@ -1,8 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem4_1.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that calculates area of the pentagon.
+ */
+   
 import java.util.Scanner;  
-/*Write a program that prompts the the user to enter the length from the center of a pentagon to a vertex 
-and computes the are of the pentagon, ans shown in the figure on page 150 */
 
 public class Problem4_1 {
   public static void main(String[] arg) {

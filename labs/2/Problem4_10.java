@@ -1,8 +1,16 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem4_10.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code is a rewritten version of Listing 4.3 that has users enter characters.
+ */
+   
 import java.util.Scanner;  
-/*Rewrite Listing 4.3 GuessBirthday.java to prompt the user to enter the character 
-Y for Yes and N for No rather than entering 1 for Yes and 0 for No*/
+
 public class Problem4_10 {
   public static void main(String[] arg) {
     

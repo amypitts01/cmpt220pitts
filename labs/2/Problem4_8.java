@@ -1,8 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem4_8.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that displays a the character of an ASCII code from the corresponding integer.
+ */
+   
 import java.util.Scanner;  
-/*Find the character of an ASCII code) Write a program that receives an ASCII code 
-(an integer between 0 and 127) and displays its character*/
 
 public class Problem4_8 {
   public static void main(String[] arg) {

@@ -1,6 +1,13 @@
-//Amy Pitts 
-/*(find the largest n such that n^3 <12000) 
-Use a while loop to find the largest integer n such that n^3 is less than 12000.*/
+/**
+ * file: Problem5_13.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains the (find the largest n such that n^3 <12000) code using a while loop.
+ */
 
 public class Problem5_13 {
   public static void main(String[] arg) {

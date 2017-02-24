@@ -1,9 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem3_15.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code lets a user play a lottery game.
+ */
+   
 import java.util.Scanner;
-/* Lottery*/
-/* generate a lotter of a three-digit number.  Prompt the user to enter a three-digit number
-and determine if it wins according to the rules in the book*/
 
 public class Problem3_15 {
   public static void main(String[] arg) {

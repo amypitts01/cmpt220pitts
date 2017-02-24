@@ -1,7 +1,14 @@
-//Amy Pitts
-//2/5/17
-/* The grade calculator letter producer */
-
+/**
+ * file: Gradeletter.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the grade calculator letter producer.
+ */
+ 
 import java.util.Scanner;
 
 public class Gradeletter {

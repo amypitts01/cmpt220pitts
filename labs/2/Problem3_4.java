@@ -1,8 +1,13 @@
-/* Amy Pitts
-   2/4/15 */
-   
-/*write a program that randomly generates an integer between 1 and 12 and diplays 
-the English month January, February,..,December for the number 1,2,...,12, accordingly. */
+/**
+ * file: Problem3_4.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that generates an integer between 1and 12 and prints the corresponding month.
+ */
 
 public class Problem3_4 {
   public static void main(String[] arg) {

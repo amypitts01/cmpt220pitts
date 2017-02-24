@@ -1,9 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem3_8.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that displays a integer in non-decreasing order.
+ */
    
 import java.util.Scanner;
-/*write a program that prompts the user to enter three integers and 
-display the integers in non-decreasing order. */
 
 public class Problem3_8 {
   public static void main(String[] arg) {

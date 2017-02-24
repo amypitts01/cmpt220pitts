@@ -1,10 +1,15 @@
-/* Amy Pitts
-   2/4/15 */
+/**
+ * file: Problem3_11.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 7, 2017
+ * version: 1.0
+ * 
+ * This file contains the code finds the number of days in a month.
+ */
+   
 import java.util.Scanner;
-/* Find the number of days in a month */
-/* Write a program that prompts the user to enter the month and year display 
- the number of days in the month.   ex/ user enters month 2 year 2012 the program
- should display february 2012 had 29 days.*/
 
 public class Problem3_11 {
   public static void main(String[] arg) {

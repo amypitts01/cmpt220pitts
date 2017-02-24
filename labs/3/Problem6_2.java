@@ -1,11 +1,13 @@
-//Amy Pitts 
-//(Sum the digits in an integer) 
-/* Write a method that computes the sum of the digits in an integer.  User the following header
-public static int sumDigits(long n)
-For example, sumDigits(234) returns 9 (2+3+4) 
-hint: use the % operator to extract digits, and the / operator to remove the extracted digit.  
-Use a loop to repeatedly extra and remove the digit until all the digits are extracted. 
- Write a test program that prompts the user to enter an integer and displays the sum of all the digits. */
+/**
+ * file: Problem6_2.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that create a new methed that calculates the sum of an integer.
+ */
 
 import java.util.Scanner;
 
@@ -33,11 +35,8 @@ public class Problem6_2 {
     
     //Creating a loop that test removes the numbers and adds them together
     while(number!=0) {
-      //gets the digit by itself
       digit = number % 10;
-      //adds that digit to the accumulating sum
-      sum +=digit;
-      //removes the digit from the number and replaces the number 
+      sum +=digit; 
       number = number / 10;
     }
     return sum;

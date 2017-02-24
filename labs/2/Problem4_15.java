@@ -1,5 +1,13 @@
-//Amy Pitts
-/*Write a program that prompts the user to enter a letter and displays its corresponding number */
+/**
+ * file: Problem4_15.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: February 16, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that prompts the user to enter a letter and displays its corresponding number.
+ */
 
 import java.util.Scanner;
 

@@ -1,3 +1,13 @@
+/**
+ * file: Problem2_5.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 1
+ * due date: January 25, 2017
+ * version: 1.0
+ * 
+ * This file contains the calculates a bill including grauity.
+ */
 import java.util.Scanner;
 
 public class Problem2_5 {

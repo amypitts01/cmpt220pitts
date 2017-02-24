@@ -1,3 +1,13 @@
+/**
+ * file: Gradepercentage.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 1
+ * due date: January 25, 2017
+ * version: 1.0
+ * 
+ * This file contains the code calculates grade percentage for class.
+ */
 import java.util.Scanner;
 
 public class Gradepercentage {

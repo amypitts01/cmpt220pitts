@@ -1,9 +1,14 @@
-//Amy Pitts
-/* 5.1 Count positive and negative numbers and compute the average of numbers. 
-Write a program that reads an unspecified number of integers, determines how many positive and negative 
-values have been read, and computes the total and average of the input values (not counting zero). 
-Your program ends with the input 0.  Display the average as a floating-point number. 
-(use do-while loop)*/
+/**
+ * file: Problem5_1.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 3
+ * due date: February 23, 2017
+ * version: 1.0
+ * 
+ * This file contains the do-while loop that counts positive and negative numbers and computes average.
+ */
+ 
 import java.util.Scanner;
 
 public class Problem5_1 {
