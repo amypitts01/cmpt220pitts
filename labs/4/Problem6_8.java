@@ -33,14 +33,32 @@ public class Problem6_8 {
     }
     
   }
-  //Convert from celsius to Fahrenheit
+/**
+* celsiusToFahrenheit
+*
+* This converts a temperature from celsius to Fahrenheit 
+* 
+* Parameters:
+*   the number which is returned
+* 
+* Return value: the celsius value that goes in the last column
+*/
   public static double celsiusToFahrenheit(double celsius) {
     
     double fahrenheitFirst = (9.0/5) * celsius + 32;
       
     return fahrenheitFirst;
   }
-  //Convert from Fahrenheit to Celsius
+/**
+* fahrenheitToCelsius
+*
+* This converts a temperature from fahrenheit to celsius 
+* 
+* Parameters:
+*   the number which is returned
+* 
+* Return value: the fahrenheit value that goes in the second column
+*/
   public static double fahrenheitToCelsius(double fahrenheit) {
     
     double celsiusSecond = (5.0/9) * (fahrenheit - 32);
