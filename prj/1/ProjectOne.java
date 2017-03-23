@@ -15,19 +15,16 @@ public class ProjectOne {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in); 
     
-    //the size of the first vector
-    System.out.println("Enter size of the first vector: ");
+    //System.out.println("Enter size of the first vector: ");
     int size1 = input.nextInt();
     
-    //the size of the Second vector
-    System.out.println("Enter size of the Second vector: ");
+    //System.out.println("Enter size of the Second vector: ");
     int size2 = input.nextInt();
     
     //Making the first array 
     double[] array1 = new double[size1];
     
-    //Getting user inputs for first array
-    System.out.println("Enter " + size1 + " numbers for first array: ");
+    //System.out.println("Enter " + size1 + " numbers for first array: ");
     for (int i = 0; i < array1.length; i++) {
       array1[i] = input.nextDouble();
     }
@@ -35,16 +32,11 @@ public class ProjectOne {
     //Making the Second array 
     double[] array2 = new double[size2];
     
-    //Collecting the users inputs for the second array
-    System.out.println("Enter " + size2 +  " numbers for second array: ");
+    //System.out.println("Enter " + size2 +  " numbers for second array: ");
     for (int i = 0; i < array2.length; i++)
       array2[i] = input.nextDouble();
     
-    System.out.println("The first array: "); //take out
-    printArr(array1);  //take out 
-    System.out.println("The second array: "); //take out
-    printArr(array2); //take out 
-    System.out.println("The results array: ");
+    //System.out.println("The results array: ");
     //Printing the result vector invoking both the print method and the convolution operation. 
     printArr(convolutionOperation(array1,array2));
     
@@ -71,18 +63,15 @@ public class ProjectOne {
     
     //Creating a while statment to calculate convolution 
     while(idx < conOper.length) {
-      System.out.println("the index is: " + idx);
+      System.out.println("the index is: " + idx); //take out
       //resetting shift
       shift = 0;
-      while(shift < arr1.length) {
+      while(shift < arr2.length) {
         //Making sure that the idx is not out of bounds
-        if(idx-shift >= arr1.length || idx-shift < 0){
-          conOper[idx] += (0 * arr2[shift]);
-          System.out.println("the shift is: " + shift); //take out
+        if(idx-shift >= arr1.length || idx-shift < 0 || shift >= arr2.length){
         }
         else {
           conOper[idx] += (arr1[(idx-shift)] * arr2[shift]);
-          System.out.println("the shift is: " + shift); //take out
         }
         shift++;
       }

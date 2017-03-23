@@ -15,36 +15,33 @@ public class IhsaCalc {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in); 
     
-    //Data on Name of Rider
-    System.out.println("Enter Name of Rider (First and Last: ");
-    String name = input.next();
+    //Date of show
+    System.out.println("Please enter the date of the show: ");
+    String date = input.next();
     
-    ///////////////fix
-    //Making sure that the input has two strings
-    if( ){
-     
-    }
+    //First Name of Rider
+    System.out.println("Enter First Name of Rider: ");
+    String fName = input.next();
     
+    //Last Name of Rider
+    System.out.println("Enter Last Name of Rider: ");
+    String lName = input.next();
+
     //Data for class
     System.out.println("Enter Riders Showing Class (ex/ WT, BWTC, AWTC, NFLAT, NFENCES, ..,:) ");
-   
-    //Making sure that the input is correct for class
-    while(WT!=cClass || BWTC!=cClass || AWTC!=cClass || NFLAT!=cClass || NFENCES!=cClass || 
-        IFLAT!=cClass || IFENCES!=cClass || OFLAT!=cClass || OFENCES!=cClass || ) {
-      scan.next(); // Read and discard offending non-int input
-      System.out.println("Please correct notation for class (ex/ WT, BWTC, AWTC, NFLAT, NFENCES, ..,:) ");
-    }
     //Collects Data for class
     String cClass = input.next();
     
+    /*This is wrong*/
+    //Making sure that the input is correct for class
+    if("WT"!=cClass || "BWTC"!=cClass || "AWTC"!=cClass || "NFLAT"!=cClass || "NFENCES"!=cClass 
+        || "IFLAT"!=cClass || "IFENCES"!=cClass || "OFLAT"!=cClass || "OFENCES"!=cClass) {
+      System.out.println("Please correct notation for class (ex/ WT, BWTC, AWTC, NFLAT, NFENCES, ..,:) ");
+    }
+   
+    
     //Data for Placement
     System.out.println("Enter Riders Placement in number form. (ex/ Second places = 2): ");
-    
-    //Making sure the input is correct for place
-    while (!scan.hasNextInt()) {        
-      scan.next(); // Read and discard offending non-int input
-      System.out.println("Enter Riders Placement in number form. (ex/ Second places = 2): "); 
-    }
     int place = input.nextInt(); //Collects the correct data
 
     //calls on the pointCalc method
@@ -77,4 +74,4 @@ public class IhsaCalc {
     return points;
   }
 }
-//another method for total point calc
+//another method for total point calc 
