@@ -41,7 +41,7 @@ public class Problem7_32 {
  * Parameters:
  *   array from user
  * 
- * Return value: the partition array
+ * Return value: the place in the array where the pivot value lies
  */
   public static int partition(int[] list) {  
   

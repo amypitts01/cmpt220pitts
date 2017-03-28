@@ -45,7 +45,7 @@ public class Problem8_13 {
  * Parameters:
  *   array from user
  * 
- * Return value: the largest value
+ * Return value: the largest value place in the array
  */
   public static int[] locateLargest(double[][] a) {  
   
