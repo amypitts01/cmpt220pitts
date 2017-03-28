@@ -16,20 +16,20 @@ public class Problem7_32 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in); 
         
-    System.out.println("Enter size of the vector: ");
+    System.out.println("Enter size of the array: ");
     int size = input.nextInt();
     
     //Making the array 
-    int[] array1 = new int[size];
+    int[] array = new int[size];
     
-    System.out.println("Enter " + size1 + " numbers for first array: ");
-    for (int i = 0; i < array1.length; i++) {
+    System.out.println("Enter " + size + " numbers for first array: ");
+    for (int i = 0; i < array.length; i++) {
       array[i] = input.nextInt();
     }
-    
+    //invoking the method
+    int results = partition(array);
     //Print the array
-    System.out.println("The partition array is: "); 
-    System.out.println(Arrays.toString(partition(array)));
+    System.out.println("The partition array is: " + results); 
   }
 
 /**
@@ -45,10 +45,19 @@ public class Problem7_32 {
  */
   public static int partition(int[] list) {  
   
-  int pivot = list[0];
-  
-  if(list[1] > pivot) 
-
+    int pivot = list[0];
+    for( int i = 0; i < list.length -1; i++) {
+      if(list[i] <= pivot) {
+        list[i] = pivot; 
+      }
+    }
+    int results = 0;
+    for( int j = 0; j < list.length -1; j++) {
+      if(list[j] == pivot) {
+        results = j-1;
+      }
+    }
+    return results;
   }
 }
   
