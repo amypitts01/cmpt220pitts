@@ -63,7 +63,6 @@ public class ProjectOne {
     
     //Creating a while statment to calculate convolution 
     while(idx < conOper.length) {
-      System.out.println("the index is: " + idx); //take out
       //resetting shift
       shift = 0;
       while(shift < arr2.length) {
