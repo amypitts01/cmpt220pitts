@@ -1,3 +1,14 @@
+/**
+ * file: Location.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 5
+ * date: April 18, 2017
+ * version: 1.0
+ * 
+ * This file contains the code that is the object for location finding.
+ */
+ 
 public class Location {
 
   //The default row 

@@ -6,7 +6,7 @@
  * date: April 16, 2017
  * version: 1.0
  * 
- * This file contains the code that Revises selection sort from 7.11.
+ * This file contains the invokes the object location.
  */
  
 import java.util.Scanner;
