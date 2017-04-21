@@ -1,6 +1,13 @@
-//Amy Pitts
-/*Write a program that generates a vehicle plate number.  
-Assume a vehicle plate number consists of three uppercase letters followed by four digits. */
+/**
+ * file: Problem4_25.java
+ * author: Amy Pitts
+ * course: CMPT 220
+ * assignment: lab 2
+ * date: April 20, 2017
+ * version: 1.0
+ * 
+ * This file randomizes numbers
+ */
 
 import java.util.Scanner;
 
