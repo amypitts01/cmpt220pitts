@@ -2,7 +2,7 @@
  * file: Problem9_13.java
  * author: Amy Pitts
  * course: CMPT 220
- * assignment: lab 5
+ * assignment: lab 6
  * date: April 16, 2017
  * version: 1.0
  * 
@@ -38,7 +38,16 @@ public class Problem9_13 {
     System.out.println("The location of the largest elements is " + location.maxValue + " at (" + location.rows + ", " + location.columns + ")");
     
   }
-  //The method
+/**
+ * locateLargest
+ *
+ * This views all the data
+ * 
+ * Parameters:
+ *   array
+ * 
+ * Return value: an instance of loaction
+ */
   public static Location locateLargest( double[][] a) {
     return new Location(a); 
   }

@@ -2,7 +2,7 @@
  * file: Rectangle.java
  * author: Amy Pitts
  * course: CMPT 220
- * assignment: lab 5
+ * assignment: lab 6
  * date: April 16, 2017
  * version: 1.0
  * 
